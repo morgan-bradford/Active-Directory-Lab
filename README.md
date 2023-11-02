@@ -73,7 +73,7 @@ Allow to install. <br/>
 <img src="https://imgur.com/iTBlL5q.png" height="75%" width="75%" alt="Active Directory Steps"/>
 <br />
 <br />
-You can enter any password. For this lab I kept it simple wiht Password1. <br/>
+You can enter any password. For this lab I kept it simple with Password1. <br/>
 Login with the Administrator account just created. <br/>
 <img src="https://imgur.com/FuPT5QE.png" height="75%" width="75%" alt="Active Directory Steps"/>
 <img src="https://imgur.com/TnfgpuD.png" height="75%" width="75%" alt="Active Directory Steps"/>
@@ -90,7 +90,7 @@ Select "Change adapter options".  <br/>
 <br />
 <br />
 To identitfy the Internet Network Interface Card(NIC) and the Interal NIC. <br/>
-Rigth click the first Ethernet. <br/>
+Right click the first Ethernet. <br/>
 Select "Status". <br/>
 Select "Details". <br/>
 This will be our Internet NIC due to the "10.0.2.15" IP Address. <br/>
@@ -125,7 +125,7 @@ Click "OK". <br/>
 <img src="https://imgur.com/rijNnzL.png" height="75%" width="75%" alt="Active Directory Steps"/>
 <br />
 <br />
-Click "OK" and close the window  <br/>
+Click "OK" and close the window.  <br/>
 </p>
 Select the Server Manager Application. If you closed this application, just click the maginfy glass at the bottom right of the screen. Type Server Manager and the blue server with a gray tool box should appear. <br/>
 Double click Add roles and features to add Active Directory Domain Services.
@@ -189,7 +189,6 @@ Then select "Organizational Unit". <br/>
 <br />
 Name it "_ADMIN". This will be the folder for your administrative accounts. <br/>
 Click "OK". <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="75%" width="75%" alt="Active Directory Steps"/>
 <br />
 <br />
 After creating the "_ADMIN" foldear, right click it. <br/>
@@ -225,7 +224,7 @@ Select Sign out. <br/>
 <br />
 <br />
 Select Other user in the bottom left corner and sign in using the admin account you created. <br/>
-<img src="https://imgur.com/Qe5iBr5" height="75%" width="75%" alt="Active Directory Steps"/>
+<img src="https://imgur.com/Qe5iBr5.png" height="75%" width="75%" alt="Active Directory Steps"/>
 <br/>
 <br/>
 Open the Server Manager application. <br/>
@@ -336,15 +335,15 @@ Choose "Custom: Install Windows only". Then click "Next". <br/>
 <br />
 <br />
 Allow it to install. <br/>
-Go through the setup. On the "Let's connect you to a netwokr." Click "I don't have internet" in the bottom left corner.<br/>
+Go through the setup. On the "Let's connect you to a network." Click "I don't have internet" in the bottom left corner.<br/>
 <img src="https://imgur.com/T6WkhhJ.png" height="75%" width="75%" alt="Active Directory Steps"/>
 <br />
 <br />
 When logged into your new user, in combination press the Windows key + R to pull up the program "Run". <br/>
 Type in "CMD" for command prompt. You can also just type it in the "Type here to search" bar. <br/>
-In the command line type "ipconfig" to see your Ip address and default gateway. If this was setup correctly, you should <br/> see the information as its shown below. <br/>
-<img src="https://imgur.com/HwRalV7" height="75%" width="75%" alt="Active Directory Steps"/>
-<img src="https://imgur.com/IpwFzhM" height="75%" width="75%" alt="Active Directory Steps"/>
+In the command line type "ipconfig" to see your Ip address and default gateway. If this was setup correctly, you should see the information as its shown below. <br/>
+<img src="https://imgur.com/HwRalV7.png" height="75%" width="75%" alt="Active Directory Steps"/>
+<img src="https://imgur.com/IpwFzhM.png" height="75%" width="75%" alt="Active Directory Steps"/>
 </p>
 Now let's add it to the domain. <br/>
 Right click the Windows icon in the bottom left corner of your screen and select "System". <br/>
